@@ -1,0 +1,1 @@
+const FB={apiKey:"AIzaSyB9Kv3NJm-n_yHjcRJPfO1GO1Hfymo-ym4",authDomain:"jooust-hustle-hub.firebaseapp.com",projectId:"jooust-hustle-hub",appId:"1:926068503486:web:4cd508e8ad54b793feffef"};
