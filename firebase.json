@@ -1,1 +1,25 @@
-{"hosting":{"public":".","ignore":["firebase.json","**/.*","firebase-debug.log","firestore.rules"],"headers":[{"source":"**","headers":[{"key":"Cache-Control","value":"no-cache"}]}]}}
+{
+ "hosting": {
+  "public": ".",
+  "ignore": [
+   "firebase.json",
+   "**/.*",
+   "firebase-debug.log",
+   "firestore.rules"
+  ],
+  "headers": [
+   {
+    "source": "**",
+    "headers": [
+     {
+      "key": "Cache-Control",
+      "value": "no-cache"
+     }
+    ]
+   }
+  ]
+ },
+ "firestore": {
+  "rules": "firestore.rules"
+ }
+}
