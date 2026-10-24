@@ -9,11 +9,20 @@
   ],
   "headers": [
    {
-    "source": "**",
+    "source": "**/*.@(html|js|json)",
     "headers": [
      {
       "key": "Cache-Control",
       "value": "no-cache"
+     }
+    ]
+   },
+   {
+    "source": "**/*.@(png|svg|ico)",
+    "headers": [
+     {
+      "key": "Cache-Control",
+      "value": "public, max-age=86400"
      }
     ]
    }
